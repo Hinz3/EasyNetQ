@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Hinz3.EasyNetQ</id>
+        <version>1.0.1</version>
+        <authors>Hinz3</authors>
+		<owners>Hinz3</owners>
+		<license type="expression">MIT</license>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectUrl>https://github.com/Hinz3/EasyNetQ</projectUrl>
+        <description>EasyNetQ Auto Subscriber implementation with dependency injection</description>
+		<dependencies>
+			<group targetFramework="netstandard2.0">
+				<dependency id="EasyNetQ" version="7.2.0" />
+				<dependency id="EasyNetQ.DI.Microsoft" version="7.2.0" />
+				<dependency id="Microsoft.AspNetCore.Hosting.Abstractions" version="2.2.0" />
+				<dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" />
+			</group>
+		</dependencies>
+    </metadata>
+    <files>
+		<file src="bin\Release\netstandard2.0\*.*" target="lib\netstandard2.0\" />
+    </files>
+</package>
