@@ -1,5 +1,5 @@
 # EasyNetQ
- EasyNetQ auto subscriber dependency implmentation
+ EasyNetQ auto subscriber dependency implementation
 
 ## How to use
 
