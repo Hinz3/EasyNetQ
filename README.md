@@ -1,4 +1,4 @@
-# EasyNetQ
+# EasyNetQ ![Nuget](https://img.shields.io/nuget/v/Hinz3.EasyNetQ)
  EasyNetQ auto subscriber dependency implementation
 
 ## How to use
